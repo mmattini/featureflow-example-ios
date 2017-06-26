@@ -1,0 +1,6 @@
+framework module featureflowiossdk {
+  umbrella header "featureflowiossdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

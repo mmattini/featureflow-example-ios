@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.4.0)
+  - CryptoSwift (0.6.9)
+  - featureflowiossdk (0.0.4):
+    - Alamofire (~> 4.4)
+    - CryptoSwift
+
+DEPENDENCIES:
+  - featureflowiossdk (from `/Users/maxmattini/ix8/featureflowiossdk`)
+
+EXTERNAL SOURCES:
+  featureflowiossdk:
+    :path: /Users/maxmattini/ix8/featureflowiossdk
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  CryptoSwift: a22f6ba238e9ce4d26ee7bf45b9ed82e7122d4a0
+  featureflowiossdk: e9254635fe0dc56f3bb85fad1d06add4ba88a2a7
+
+PODFILE CHECKSUM: 96b4fa5846011f35301ed89b0fcbfddb97f0205d
+
+COCOAPODS: 1.1.1

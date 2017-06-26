@@ -1,0 +1,297 @@
+{
+  "example-feature": {
+    "archived": false, 
+    "available": false, 
+    "deleted": false, 
+    "enabled": false, 
+    "environmentId": "5943339f81608a000b0bbe68", 
+    "featureId": "5943339f81608a000b0bbe6e", 
+    "firstRegistered": null, 
+    "hitsToday": null, 
+    "id": "5943339f81608a000b0bbe70", 
+    "inClientApi": true, 
+    "key": "example-feature", 
+    "lastEvaluated": null, 
+    "lastRegistered": "2017-06-20T01:17:15.316Z", 
+    "offVariantKey": "off", 
+    "organisationId": "5943339c81608a000b0bbe63", 
+    "projectId": "5943339e81608a000b0bbe66", 
+    "rules": [
+      {
+        "audience": null, 
+        "defaultRule": true, 
+        "priority": 0, 
+        "variantSplits": [
+          {
+            "split": 0, 
+            "variantKey": "off"
+          }, 
+          {
+            "split": 100, 
+            "variantKey": "on"
+          }
+        ]
+      }
+    ], 
+    "salt": null, 
+    "status": "available", 
+    "uid": null, 
+    "variants": null
+  }, 
+  "facebook-login": {
+    "archived": false, 
+    "available": false, 
+    "deleted": false, 
+    "enabled": true,
+    "environmentId": "5943339f81608a000b0bbe68", 
+    "featureId": "5948779c81608a000b0bbed1", 
+    "firstRegistered": "2017-06-20T01:17:16.026Z", 
+    "hitsToday": null, 
+    "id": "5948779c81608a000b0bbed3", 
+    "inClientApi": true, 
+    "key": "facebook-login", 
+    "lastEvaluated": null, 
+    "lastRegistered": "2017-06-20T01:17:16.026Z", 
+    "offVariantKey": "off", 
+    "organisationId": "5943339c81608a000b0bbe63", 
+    "projectId": "5943339e81608a000b0bbe66", 
+    "rules": [
+      {
+        "audience": null, 
+        "defaultRule": true, 
+        "priority": 0, 
+        "variantSplits": [
+          {
+            "split": 0, 
+            "variantKey": "off"
+          }, 
+          {
+            "split": 100, 
+            "variantKey": "on"
+          }
+        ]
+      }
+    ], 
+    "salt": null, 
+    "status": "available", 
+    "uid": null, 
+    "variants": null
+  }, 
+  "feature1": {
+    "archived": false, 
+    "available": false, 
+    "deleted": false, 
+    "enabled": false, 
+    "environmentId": "5943339f81608a000b0bbe68", 
+    "featureId": "59437d6681608a000b0bbe91", 
+    "firstRegistered": null, 
+    "hitsToday": null, 
+    "id": "59437d6681608a000b0bbe93", 
+    "inClientApi": true, 
+    "key": "feature1", 
+    "lastEvaluated": null, 
+    "lastRegistered": null, 
+    "offVariantKey": "off", 
+    "organisationId": "5943339c81608a000b0bbe63", 
+    "projectId": "5943339e81608a000b0bbe66", 
+    "rules": [
+      {
+        "audience": {
+          "conditions": [
+            {
+              "operator": "equals", 
+              "target": "featureflow.date", 
+              "values": [
+                "2017-06-29T02:00:00.000Z"
+              ]
+            }
+          ], 
+          "id": null, 
+          "name": null
+        }, 
+        "defaultRule": false, 
+        "priority": 0, 
+        "variantSplits": [
+          {
+            "split": 0, 
+            "variantKey": "on"
+          }, 
+          {
+            "split": 100, 
+            "variantKey": "off"
+          }
+        ]
+      }, 
+      {
+        "audience": {
+          "conditions": [
+            {
+              "operator": "equals", 
+              "target": "featureflow.date", 
+              "values": [
+                "2017-06-24T02:00:00.000Z"
+              ]
+            }, 
+            {
+              "operator": "before", 
+              "target": "featureflow.date", 
+              "values": [
+                "2017-06-17T02:00:00.000Z"
+              ]
+            }
+          ], 
+          "id": null, 
+          "name": null
+        }, 
+        "defaultRule": false, 
+        "priority": 2, 
+        "variantSplits": [
+          {
+            "split": 0, 
+            "variantKey": "on"
+          }, 
+          {
+            "split": 100, 
+            "variantKey": "off"
+          }
+        ]
+      }, 
+      {
+        "audience": null, 
+        "defaultRule": true, 
+        "priority": 1, 
+        "variantSplits": [
+          {
+            "split": 100, 
+            "variantKey": "on"
+          }, 
+          {
+            "split": 0, 
+            "variantKey": "off"
+          }
+        ]
+      }
+    ], 
+    "salt": null, 
+    "status": "unavailable", 
+    "uid": null, 
+    "variants": null
+  }, 
+  "something": {
+    "archived": false, 
+    "available": false, 
+    "deleted": false, 
+    "enabled": false, 
+    "environmentId": "5943339f81608a000b0bbe68", 
+    "featureId": "594333c581608a000b0bbe73", 
+    "firstRegistered": null, 
+    "hitsToday": null, 
+    "id": "594333c581608a000b0bbe75", 
+    "inClientApi": true, 
+    "key": "something", 
+    "lastEvaluated": null, 
+    "lastRegistered": null, 
+    "offVariantKey": "off", 
+    "organisationId": "5943339c81608a000b0bbe63", 
+    "projectId": "5943339e81608a000b0bbe66", 
+    "rules": [
+      {
+        "audience": null, 
+        "defaultRule": true, 
+        "priority": 0, 
+        "variantSplits": [
+          {
+            "split": 0, 
+            "variantKey": "off"
+          }, 
+          {
+            "split": 100, 
+            "variantKey": "on"
+          }
+        ]
+      }
+    ], 
+    "salt": null, 
+    "status": "unavailable", 
+    "uid": null, 
+    "variants": null
+  }, 
+  "standard-login": {
+    "archived": false, 
+    "available": false, 
+    "deleted": false, 
+    "enabled": false, 
+    "environmentId": "5943339f81608a000b0bbe68", 
+    "featureId": "5948779a81608a000b0bbecc", 
+    "firstRegistered": "2017-06-20T01:17:14.105Z", 
+    "hitsToday": null, 
+    "id": "5948779a81608a000b0bbece", 
+    "inClientApi": true, 
+    "key": "standard-login", 
+    "lastEvaluated": null, 
+    "lastRegistered": "2017-06-20T01:17:14.105Z", 
+    "offVariantKey": "off", 
+    "organisationId": "5943339c81608a000b0bbe63", 
+    "projectId": "5943339e81608a000b0bbe66", 
+    "rules": [
+      {
+        "audience": null, 
+        "defaultRule": true, 
+        "priority": 0, 
+        "variantSplits": [
+          {
+            "split": 0, 
+            "variantKey": "off"
+          }, 
+          {
+            "split": 100, 
+            "variantKey": "on"
+          }
+        ]
+      }
+    ], 
+    "salt": null, 
+    "status": "available", 
+    "uid": null, 
+    "variants": null
+  }, 
+  "summary-dashboard": {
+    "archived": false, 
+    "available": false, 
+    "deleted": false, 
+    "enabled": false, 
+    "environmentId": "5943339f81608a000b0bbe68", 
+    "featureId": "5948779d81608a000b0bbed5", 
+    "firstRegistered": "2017-06-20T01:17:17.167Z", 
+    "hitsToday": null, 
+    "id": "5948779d81608a000b0bbed7", 
+    "inClientApi": true, 
+    "key": "summary-dashboard", 
+    "lastEvaluated": null, 
+    "lastRegistered": "2017-06-20T01:17:17.167Z", 
+    "offVariantKey": "off", 
+    "organisationId": "5943339c81608a000b0bbe63", 
+    "projectId": "5943339e81608a000b0bbe66", 
+    "rules": [
+      {
+        "audience": null, 
+        "defaultRule": true, 
+        "priority": 0, 
+        "variantSplits": [
+          {
+            "split": 0, 
+            "variantKey": "off"
+          }, 
+          {
+            "split": 100, 
+            "variantKey": "on"
+          }
+        ]
+      }
+    ], 
+    "salt": null, 
+    "status": "available", 
+    "uid": null, 
+    "variants": null
+  }
+}

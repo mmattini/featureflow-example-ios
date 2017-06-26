@@ -1,0 +1,29 @@
+{
+  "name": "featureflowsdk",
+  "version": "0.0.1",
+  "summary": "Featureflow SDK for iOS.",
+  "description": "This is the returned client instance returned from Featureflow.init(...). It contains the Features for the apiKey's environment.\n\nOnce instantiated, you should assume that the user will reference this instance for the lifetime of their application.\n\nFor the purpose of this document, assume that featureflow is the instantiated client from",
+  "homepage": "https://bitbucket.org/mmattini/featureflowsdk.git",
+  "license": "MIT",
+  "authors": {
+    "mmattini": "maxmattini@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://bitbucket.org/mmattini/featureflowsdk.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "featureflowsdk/**/*.{swift}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.4"
+    ],
+    "CryptoSwift": [
+
+    ]
+  }
+}

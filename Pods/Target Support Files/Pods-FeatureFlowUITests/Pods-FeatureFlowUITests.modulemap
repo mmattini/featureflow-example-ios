@@ -1,0 +1,6 @@
+framework module Pods_FeatureFlowUITests {
+  umbrella header "Pods-FeatureFlowUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
